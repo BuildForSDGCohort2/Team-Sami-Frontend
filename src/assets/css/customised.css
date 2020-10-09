@@ -1,0 +1,71 @@
+.view-btn, .close-view:hover {
+    background-color: #8F748D !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.close-view, .view-btn:hover {
+    background: white !important;
+    color: #8F748D !important;
+    border-color: #8F748D !important;
+}
+
+.close-view{
+    margin-left: 80% !important;
+}
+
+#item-viewer {
+    margin-top: 15%;
+    position: fixed !important;
+    z-index: 1000;
+    width: 100% !important;
+}
+
+.client_review{
+    padding-top: 15px !important;
+   height: 500px !important;
+}
+
+.single-gallery{
+    height: 50px !important;
+}
+
+.single_client_review {
+    margin: 0 auto !important;
+    width: 450px !important;
+    height: 450px !important;
+}
+
+#errors{
+    margin-bottom: 15px;
+}
+#errors p{
+    color: red !important;
+}
+#errors a{
+    color: blue !important;
+}
+  
+#errors span{
+    color: green;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+  
+#visibility {
+    cursor: pointer;
+}
+
+section, table, tbody, .cart_area, .section_padding, .container, .cart_inner, .table-responsive, .table{
+    overflow: visible !important;
+}
+  
+.select-box{
+    overflow: scroll;
+    max-height: 50px;
+}
+
+
+.cursor:hover, button:hover, a:hover{
+    cursor: pointer !important;
+}

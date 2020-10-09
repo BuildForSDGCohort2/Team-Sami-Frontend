@@ -5,17 +5,15 @@ module.exports = {
     node: true,
     jest: true
   },
-  extends: ['airbnb-base'],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module'
-  },
+  extends: ['react-app', 'airbnb', 'plugin:jsx-a11y/recommended', 'prettier', 'prettier/react'],
+  plugins: ['jsx-a11y', 'prettier', 'stylelint-prettier'],
   rules: {
-    'comma-dangle': ['error', 'never'],
-    'no-param-reassign': ['error', { props: false }]
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'prettier/prettier': [
+      'error',
+      {
+        semi: true
+      }
+    ]
   }
 };
